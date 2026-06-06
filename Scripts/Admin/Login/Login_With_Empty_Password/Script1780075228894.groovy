@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.setViewPortSize(1920, 1080)
+
 WebUI.navigateToUrl(GlobalVariable.adminUrl)
+
+WebUI.waitForElementClickable(findTestObject('Admin/Login/Page_Meraki/btnOpenLoginModal'), 20)
 
 WebUI.click(findTestObject('Admin/Login/Page_Meraki/btnOpenLoginModal'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>cc2359ef-1824-417e-a9eb-4d50b66f9ac4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>[aria-label=&quot;Open\ Sign\ In\ Modal&quot;] .iconify--mdi</value>
+         <key>XPATH</key>
+         <value>//*[@aria-label='Open Sign In Modal']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@aria-label = 'Open Sign In Modal']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' iconify--mdi ')]</value>
+         <key>CSS</key>
+         <value>[aria-label=&quot;Open\ Sign\ In\ Modal&quot;] .iconify--mdi</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>eaab5b34-1bb2-4e72-b738-e71b3d001f7d</webElementGuid>
+      <webElementGuid>c2c7fb67-b076-4b50-b5b5-f01a8f05741b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>94d61287-e27e-4fd7-9053-2d424aa18615</webElementGuid>
+      <webElementGuid>7e79a892-2665-4ac6-b49b-c7c784064aa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xmlns:xlink</name>
       <type>Main</type>
       <value>http://www.w3.org/1999/xlink</value>
-      <webElementGuid>01eb13cf-9f88-4a63-b0a1-f942ccbce0da</webElementGuid>
+      <webElementGuid>6f96e394-8eaa-425d-b5c0-1480f24a53bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b18a86e3-b2b0-40ec-b708-19d745c1ce65</webElementGuid>
+      <webElementGuid>863f34f1-d161-4c0e-9751-d553ef5aaaf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>d7b16eba-8cd8-4d46-92fc-1c2b82423757</webElementGuid>
+      <webElementGuid>cc314e80-cd73-4282-a70a-313a2f095ef4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>iconify iconify--mdi text-2xl</value>
-      <webElementGuid>721aea1b-616e-469c-939c-93b7109ac67e</webElementGuid>
+      <webElementGuid>ec3d7cc4-9e1a-4bd5-bcf3-4e404f936e67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1em</value>
-      <webElementGuid>c2a4e38d-0dbd-409f-928b-0c46609ed7c8</webElementGuid>
+      <webElementGuid>5bc53411-6d0d-4763-815b-34dbafedb7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>height</name>
       <type>Main</type>
       <value>1em</value>
-      <webElementGuid>b857275a-e09d-45af-b3f6-1c52893d107c</webElementGuid>
+      <webElementGuid>46bdf7be-1dfb-4e0d-8566-ee45700a4b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>955c1db3-ac6f-4ebb-bc0e-3b1ac008b3ca</webElementGuid>
+      <webElementGuid>98270e5d-31b3-4941-a35f-3771667e2b0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9bfeb911be8d7fcf3f5e6461aab42c62</value>
-      <webElementGuid>e97c72bb-8eac-47e0-8b2e-ba43659fb749</webElementGuid>
+      <webElementGuid>40a352a8-1c41-441c-8c29-45ae9a36711b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@aria-label = 'Open Sign In Modal']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' iconify--mdi ')]</value>
-      <webElementGuid>aed80431-aed0-4451-a1b3-78fcaf31b7cb</webElementGuid>
+      <webElementGuid>3895c188-e728-4ee4-97a9-393a6c746ef1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@aria-label = 'Open Sign In Modal']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' iconify--mdi ')]</value>
-      <webElementGuid>ab8a4c06-a99d-4ccc-a768-db95102c21fe</webElementGuid>
+      <webElementGuid>af57741d-8911-49c4-91f0-e84dd41abca5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
