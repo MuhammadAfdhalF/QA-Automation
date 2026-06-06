@@ -1,12 +1,12 @@
 # QA Automation - Katalon Studio
 
-Project ini adalah latihan automation testing menggunakan **Katalon Studio** untuk menguji fitur web aplikasi secara otomatis.
+This project is a QA automation practice project using **Katalon Studio** to automate web application testing.
 
-Project ini juga sudah diintegrasikan dengan:
+The project has been integrated with:
 
-- GitHub sebagai repository
-- Jenkins sebagai CI tool
-- Katalon True Platform untuk report execution
+- GitHub as the source code repository
+- Jenkins as the CI tool
+- Katalon True Platform for execution reports
 
 ## Tools
 
@@ -19,14 +19,14 @@ Project ini juga sudah diintegrasikan dengan:
 
 ## Test Scope
 
-Automation test yang dibuat mencakup:
+The automation tests cover the following modules:
 
 ### Login Module
 
-- Login dengan valid credential
-- Login dengan invalid password
-- Login dengan email kosong
-- Login dengan password kosong
+- Login with valid credentials
+- Login with invalid password
+- Login with empty email
+- Login with empty password
 
 ### Portfolio Module
 
@@ -38,7 +38,7 @@ Automation test yang dibuat mencakup:
 
 ## Test Suites
 
-Project ini memiliki beberapa test suite:
+This project contains several test suites:
 
 - `TS_Login`
 - `TS_Portfolio`
@@ -47,16 +47,16 @@ Project ini memiliki beberapa test suite:
 
 ## CI Integration with Jenkins
 
-Project ini sudah berhasil dijalankan melalui Jenkins.
+This project has been successfully executed through Jenkins.
 
-Alur Jenkins:
+Jenkins workflow:
 
 ```text
 GitHub Repository
 ↓
-Jenkins Clone Repository
+Jenkins Clones Repository
 ↓
-Jenkins Run Katalon Test Suite / Test Suite Collection
+Jenkins Runs Katalon Test Suite / Test Suite Collection
 ↓
 Generate Test Result
 ↓
