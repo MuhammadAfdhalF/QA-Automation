@@ -1,39 +1,56 @@
-# QA Automation - Katalon Studio
+# 🧪 QA Automation – Katalon Studio, Jenkins & Test Reporting
 
-This project is a QA automation practice project using **Katalon Studio** to automate web application testing.
+Project ini adalah latihan **QA Automation berbasis e-learning/course** menggunakan **Katalon Studio** untuk mengotomatisasi pengujian web application.
 
-The project has been integrated with:
+Project ini berfokus pada pembuatan automation test case, pengelolaan test suite, integrasi dengan GitHub, eksekusi otomatis melalui Jenkins, serta publikasi report melalui Jenkins dan Katalon True Platform.
 
-- GitHub as the source code repository
-- Jenkins as the CI tool
-- Katalon Jenkins Plugin for CI execution
-- Katalon True Platform for execution reports
-- Jenkins JUnit report publisher for test result reporting
-- Test Results Analyzer plugin for visual test result analysis
+---
 
-## Tools
+## 📌 Tentang Project
 
-- Katalon Studio 11.1.3
-- Katalon Runtime Engine / katalonc
-- Jenkins
-- GitHub
-- Chrome / Chrome Headless
-- Firefox
-- Katalon True Platform
-- Jenkins Test Results Analyzer Plugin
+Project ini dibuat sebagai bagian dari proses belajar QA Automation untuk memahami alur kerja automation testing secara end-to-end.
 
-## Test Scope
+Automation test mencakup:
 
-The automation tests cover the following modules:
+- Login testing
+- Negative testing
+- Portfolio management testing
+- Test Suite & Test Suite Collection
+- CI execution menggunakan Jenkins
+- Report analysis menggunakan Jenkins Test Result dan Test Results Analyzer
+- Report upload ke Katalon True Platform
 
-### Login Module
+Dengan project ini, proses testing dapat dijalankan secara otomatis, terstruktur, dan terdokumentasi dengan baik.
+
+---
+
+## 🛠️ Tools & Teknologi
+
+- ⚙️ **Katalon Studio 11.1.3** → automation testing tool
+- 🚀 **Katalon Runtime Engine / katalonc** → command line execution
+- 🔧 **Jenkins** → CI tool
+- 🧩 **Katalon Jenkins Plugin** → menjalankan Katalon dari Jenkins
+- 🐙 **GitHub** → source code repository
+- 🌐 **Chrome / Chrome Headless** → browser execution
+- 🦊 **Firefox** → cross-browser execution
+- 📊 **Katalon True Platform** → execution report
+- 📈 **Jenkins Test Results Analyzer** → visual test result analysis
+- 📄 **JUnit Report Publisher** → publish test result di Jenkins
+
+---
+
+## 🧩 Test Scope
+
+Automation test pada project ini mencakup beberapa module berikut:
+
+### 🔐 Login Module
 
 - Login with valid credentials
 - Login with invalid password
 - Login with empty email
 - Login with empty password
 
-### Portfolio Module
+### 🗂️ Portfolio Module
 
 - Open portfolio page
 - Open add portfolio modal
@@ -42,42 +59,52 @@ The automation tests cover the following modules:
 - Filter portfolio by category
 - Delete portfolio data
 
-## Test Suites
+---
 
-This project contains several test suites and test suite collections:
+## 🧪 Test Suites
+
+Project ini memiliki beberapa test suite dan test suite collection:
 
 - `TS_Login`
 - `TS_Portfolio`
 - `TS_All`
 - `dynamic`
 
-## CI Integration with Jenkins
+`TS_All` digunakan sebagai **Test Suite Collection** untuk menjalankan beberapa test suite sekaligus melalui Jenkins.
 
-This project has been successfully executed through Jenkins.
+---
 
-Jenkins workflow:
+## 🌐 Arsitektur Automation Flow
 
 ```text
 GitHub Repository
 ↓
-Jenkins Clones Repository
+Jenkins Clone Repository
 ↓
 Jenkins Cleans Old Reports
 ↓
 Jenkins Runs Katalon Test Suite Collection
 ↓
-Katalon Generates Test Reports
+Katalon Executes Automated Tests
+↓
+Katalon Generates Reports
 ↓
 Jenkins Publishes JUnit Test Results
+↓
+Jenkins Test Results Analyzer Displays Test Summary
 ↓
 Katalon Uploads Report to Katalon True Platform
 ↓
 Build Status Success / Failed
 ```
 
-Jenkins uses the **Katalon Jenkins Plugin** to execute the Katalon test suite collection from the command line.
+---
 
-Example Katalon command arguments:
+## ⚙️ Jenkins CI Integration
+
+Project ini sudah berhasil dijalankan melalui Jenkins menggunakan **Katalon Jenkins Plugin**.
+
+Jenkins menjalankan Katalon test execution dengan command argument berikut:
 
 ```bat
 -noSplash -runMode=console ^
@@ -89,11 +116,13 @@ Example Katalon command arguments:
 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
 ```
 
-> Note: The API key should not be committed to the repository. Use your own Katalon API key in Jenkins configuration.
+> Note: API key tidak boleh disimpan langsung di repository. Gunakan API key pribadi pada konfigurasi Jenkins.
 
-## Jenkins Report Configuration
+---
 
-Before running the Katalon test execution, Jenkins removes the old `Reports` folder to avoid reading outdated failed test results.
+## 🧹 Jenkins Report Cleanup
+
+Sebelum menjalankan test baru, Jenkins menghapus folder report lama agar tidak membaca hasil test sebelumnya.
 
 Windows batch command:
 
@@ -101,15 +130,31 @@ Windows batch command:
 if exist "%WORKSPACE%\Reports" rmdir /s /q "%WORKSPACE%\Reports"
 ```
 
-JUnit report path used in Jenkins:
+Hal ini dilakukan agar Jenkins hanya membaca report dari execution terbaru.
+
+---
+
+## 📄 JUnit Report Configuration
+
+JUnit report path yang digunakan di Jenkins:
 
 ```text
 Reports/**/TS_Login/**/JUnit_Report.xml,Reports/**/TS_Portfolio/**/JUnit_Report.xml
 ```
 
-## Test Report
+Report ini digunakan agar Jenkins dapat menampilkan:
 
-Automation test reports can be viewed from:
+- Total passed tests
+- Total failed tests
+- Test result trend
+- Detail test case result
+- Test Results Analyzer chart
+
+---
+
+## 📊 Test Report
+
+Hasil automation test dapat dilihat melalui:
 
 - Katalon Studio local report
 - Jenkins build result
@@ -117,51 +162,91 @@ Automation test reports can be viewed from:
 - Jenkins Test Results Analyzer
 - Katalon True Platform execution report
 
-## Execution Evidence
+---
 
-### Jenkins Build Success
+## 📸 Execution Evidence
+
+### ✅ Jenkins Build Success
 
 ![Jenkins Build Success](docs/jenkins-success.png)
 
-### Jenkins Test Result
+### ✅ Jenkins Test Result
 
 ![Jenkins Test Result](docs/jenkins-test-result.png)
 
-### Test Results Analyzer
+### 📊 Test Results Analyzer
 
 ![Test Results Analyzer](docs/test-results-analyzer.png)
 
-### Katalon True Platform Report
+### 📈 Katalon True Platform Report
 
 ![Katalon True Platform Report](docs/katalon-true-platform-report.png)
 
-## Learning Goals
+---
 
-The purpose of this project is to learn and practice:
+## 🧪 Testing Result
 
-- Creating automation test cases using Katalon Studio
-- Managing Object Repository
-- Creating Test Suites and Test Suite Collections
-- Running tests with multiple browsers
-- Running tests with normal browser and headless browser
-- Storing automation projects in GitHub
-- Running automation tests through Jenkins
-- Using Katalon Jenkins Plugin
-- Publishing JUnit test results in Jenkins
-- Reading and analyzing automation test reports
-- Uploading execution reports to Katalon True Platform
-
-## Project Status
+Current automation execution result:
 
 ```text
-Katalon Studio execution: Passed
-Jenkins execution: Passed
-JUnit report publishing: Passed
-Test Results Analyzer: Passed
-Katalon True Platform upload: Passed
-GitHub integration: Done
+Total Test Cases : 10
+Passed           : 10
+Failed           : 0
+Skipped          : 0
+Build Status     : SUCCESS
 ```
 
-## Author
+---
 
-Muhammad Afdhal F
+## 📈 Dampak / Hasil Pembelajaran
+
+Melalui project ini, proses belajar QA Automation mencakup:
+
+✅ Membuat test case otomatis menggunakan Katalon Studio  
+✅ Mengelola Object Repository  
+✅ Membuat Test Suite dan Test Suite Collection  
+✅ Menjalankan test di beberapa browser  
+✅ Mengintegrasikan project automation dengan GitHub  
+✅ Menjalankan automation test melalui Jenkins  
+✅ Menggunakan Katalon Jenkins Plugin  
+✅ Membersihkan report lama sebelum execution baru  
+✅ Publish JUnit report di Jenkins  
+✅ Membaca hasil test melalui Test Results Analyzer  
+✅ Upload execution report ke Katalon True Platform  
+
+---
+
+## 🎯 Learning Goals
+
+Tujuan project ini adalah untuk memahami praktik dasar hingga menengah dalam QA Automation, khususnya:
+
+- Web UI automation testing
+- Positive and negative test scenario
+- Test suite management
+- CI/CD testing workflow
+- Jenkins integration
+- Test reporting
+- Automation portfolio preparation
+
+---
+
+## ✅ Project Status
+
+```text
+Katalon Studio execution       : Passed
+Jenkins execution              : Passed
+JUnit report publishing        : Passed
+Test Results Analyzer          : Passed
+Katalon True Platform upload   : Passed
+GitHub integration             : Done
+```
+
+---
+
+## 🙋‍♂️ Author
+
+👨‍💻 **Muhammad Afdhal F**
+
+QA Automation Learning Project  
+Tools: Katalon Studio • Jenkins • GitHub • Katalon True Platform  
+Focus: Web Automation Testing • CI Integration • Test Reporting
