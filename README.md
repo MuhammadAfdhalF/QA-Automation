@@ -38,7 +38,7 @@ The automation tests cover the following modules:
 
 ## Test Suites
 
-This project contains several test suites:
+This project contains several test suites and test suite collections:
 
 - `TS_Login`
 - `TS_Portfolio`
@@ -61,3 +61,53 @@ Jenkins Runs Katalon Test Suite / Test Suite Collection
 Generate Test Result
 ↓
 Build Status Passed / Failed
+```
+
+Jenkins uses `katalonc.exe` to run the automation tests from the command line.
+
+Example Jenkins command:
+
+```bat
+"C:\Users\TUF GAMING F15\.katalon\packages\KS-11.1.3\katalonc.exe" -noSplash -runMode=console ^
+-projectPath="%WORKSPACE%\Meraki_Login_Automation.prj" ^
+-retry=0 ^
+-testSuiteCollectionPath="Test Suites/TS_All" ^
+-executionProfile="default" ^
+-apiKey="YOUR_API_KEY" ^
+--config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+```
+
+> Note: The API key should not be committed to the repository. Use your own Katalon API key in Jenkins configuration.
+
+## Test Report
+
+Automation test reports can be viewed from:
+
+- Katalon Studio local report
+- Jenkins build result
+- Katalon True Platform execution report
+
+## Learning Goals
+
+The purpose of this project is to learn and practice:
+
+- Creating automation test cases using Katalon Studio
+- Managing Object Repository
+- Creating Test Suites and Test Suite Collections
+- Running tests with normal browser and headless browser
+- Storing automation projects in GitHub
+- Running automation tests through Jenkins
+- Reading and analyzing automation test reports
+
+## Project Status
+
+```text
+Katalon Studio execution: Passed
+Katalon True Platform upload: Passed
+Jenkins execution: Passed
+GitHub integration: Done
+```
+
+## Author
+
+Muhammad Afdhal F
