@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lblDashboard</name>
+   <tag></tag>
+   <elementGuidId>f6427dc8-c7fb-4ab9-831b-0a3ff3a141d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Meraki.'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Dashboard&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c57c3f15-c5bd-4f0f-9340-a5a096ccf3c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group relative flex items-center gap-3 px-4 py-3 rounded-2xl text-sm transition border border-transparent bg-[#470000]/60 border-white/10 shadow-[0_10px_30px_rgba(71,0,0,0.25)]</value>
+      <webElementGuid>f031a22a-4780-4a09-8ad6-19a4d8f99085</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/</value>
+      <webElementGuid>78554720-a6b2-4cb8-8f33-577e5263fd7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dashboard</value>
+      <webElementGuid>bec8e64a-44c9-4b8c-ae66-ff336d792719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_0d7163&quot;]/div[@class=&quot;min-h-screen text-white flex&quot;]/aside[@class=&quot;hidden md:block w-[270px] border-r border-white/10 bg-black/25 backdrop-blur&quot;]/nav[@class=&quot;px-3 py-6 space-y-2&quot;]/a[@class=&quot;group relative flex items-center gap-3 px-4 py-3 rounded-2xl text-sm transition border border-transparent bg-[#470000]/60 border-white/10 shadow-[0_10px_30px_rgba(71,0,0,0.25)]&quot;]</value>
+      <webElementGuid>74e3d149-a248-4c9c-b092-befe0b7f852e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meraki.'])[1]/following::a[1]</value>
+      <webElementGuid>c3e5b0b6-cc07-4f24-8b92-2ffe5a2360f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[1]/following::a[1]</value>
+      <webElementGuid>b28b9316-2c7a-4fc3-ba8d-6e54819ec57d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Portfolios'])[1]/preceding::a[1]</value>
+      <webElementGuid>c991f3bd-cecd-4614-b597-46b01a0e863a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/')]</value>
+      <webElementGuid>1b6d42cb-077d-41f0-8ce8-ebf3d1c7a662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>67424a22-150e-4eda-b9fa-69c88cfbb10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/' and (text() = 'Dashboard' or . = 'Dashboard')]</value>
+      <webElementGuid>edd505de-52df-4bf7-8ff7-5da63e4d7ac3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

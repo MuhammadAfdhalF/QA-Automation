@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drpCategory</name>
+   <tag></tag>
+   <elementGuidId>5e641bb5-5577-462a-9aa3-6f432cb707e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//label[normalize-space(.)='Category']/following-sibling::select)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Categorydesignphotographyvideobranding$/ >> internal:role=combobox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0e1f7c29-347c-4e92-864d-c02369c70965</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full rounded-xl bg-black/30 border border-white/10 px-4 py-3 outline-none focus:border-white/20</value>
+      <webElementGuid>35ab3d4f-8aca-4399-b69c-8248000a71fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>designphotographyvideobranding</value>
+      <webElementGuid>6cb35d49-32c8-4612-83fc-ec9856bf7f62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_0d7163&quot;]/div[@class=&quot;min-h-screen text-white flex&quot;]/div[@class=&quot;flex-1 flex flex-col&quot;]/main[@class=&quot;p-4 md:p-6&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-4&quot;]/div[@class=&quot;w-full max-w-3xl rounded-2xl border border-white/10 bg-[#0D0D0D] overflow-hidden&quot;]/div[@class=&quot;p-6 space-y-5&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-2 gap-4&quot;]/div[1]/select[@class=&quot;w-full rounded-xl bg-black/30 border border-white/10 px-4 py-3 outline-none focus:border-white/20&quot;]</value>
+      <webElementGuid>67fa8137-a896-4023-9b3b-4ba13b661fc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[3]/following::select[1]</value>
+      <webElementGuid>b24e0c02-5d61-4fde-90f1-677360aa1a38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description (optional)'])[1]/following::select[1]</value>
+      <webElementGuid>1c7917fa-16a8-4478-9575-f782df2ea109</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/preceding::select[1]</value>
+      <webElementGuid>e0aa11a3-a7cb-4432-8309-2356e1ad7154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured'])[2]/preceding::select[1]</value>
+      <webElementGuid>24cde508-d377-4e75-bf14-e9d348081286</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/select</value>
+      <webElementGuid>b3e50ce9-47cd-4dd6-953e-135d845f6cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'designphotographyvideobranding' or . = 'designphotographyvideobranding')]</value>
+      <webElementGuid>151dcf09-f6b5-4d52-9157-3ff44534c3a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

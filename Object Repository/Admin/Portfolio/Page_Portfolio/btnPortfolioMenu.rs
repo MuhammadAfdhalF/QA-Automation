@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPortfolioMenu</name>
+   <tag></tag>
+   <elementGuidId>7eb3f00a-0b82-4162-8803-873042663881</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(normalize-space(.), 'Portfolios')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Portfolios&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ae38991c-2a14-4a70-a30d-dc41f1de3001</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>group relative flex items-center gap-3 px-4 py-3 rounded-2xl text-sm transition border border-transparent bg-[#470000]/60 border-white/10 shadow-[0_10px_30px_rgba(71,0,0,0.25)]</value>
+      <webElementGuid>b0632ce0-1100-4ab0-8ddf-6306c9ae9e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/portfolios/</value>
+      <webElementGuid>71d9cf2a-6c66-4aa5-a4ff-45c858ad293c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Portfolios</value>
+      <webElementGuid>f0f0792e-41f4-4cfd-b667-c1c78d243aab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_0d7163&quot;]/div[@class=&quot;min-h-screen text-white flex&quot;]/aside[@class=&quot;hidden md:block w-[270px] border-r border-white/10 bg-black/25 backdrop-blur&quot;]/nav[@class=&quot;px-3 py-6 space-y-2&quot;]/a[@class=&quot;group relative flex items-center gap-3 px-4 py-3 rounded-2xl text-sm transition border border-transparent bg-[#470000]/60 border-white/10 shadow-[0_10px_30px_rgba(71,0,0,0.25)]&quot;]</value>
+      <webElementGuid>6d0e48de-d65f-44d1-a4cc-e951e3c42a01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
+      <webElementGuid>a01937b9-7de7-4e30-a64f-1732c68817db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meraki.'])[1]/following::a[2]</value>
+      <webElementGuid>3e7d4a44-1136-479d-8ae1-a0779d27f282</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home Sections'])[1]/preceding::a[1]</value>
+      <webElementGuid>a313d94c-5ef3-47dc-a7eb-1b2f71b8d69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/portfolios/')]</value>
+      <webElementGuid>6640a840-af89-4226-a9bd-6508f79395d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>2f2eea35-1e63-4a18-9412-548da98286d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/portfolios/' and (text() = 'Portfolios' or . = 'Portfolios')]</value>
+      <webElementGuid>e75c5cd7-2cef-4eec-b25b-a50a114cf4e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_Portfolio_With_Valid_Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a47784e-e9de-4cf0-ada2-9e1d600d2c18</testCaseGuid>
+</TestCaseEntity>

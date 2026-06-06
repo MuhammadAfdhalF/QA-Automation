@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txaDescription</name>
+   <tag></tag>
+   <elementGuidId>05e824a9-351b-4ac9-898c-af9e82806119</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@placeholder='Optional description...']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Optional description...&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>616e9b8c-c474-4880-b189-a39cb8ea568f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>f2f05620-a4ab-4c35-9a17-d5af4a6a34cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Optional description...</value>
+      <webElementGuid>b84c1e26-63ab-4e5a-966e-e1364c2170fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full rounded-xl bg-black/30 border border-white/10 px-4 py-3 outline-none focus:border-white/20 resize-none</value>
+      <webElementGuid>3bdd9922-4068-46d2-a8ec-67f5bdcb081c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_0d7163&quot;]/div[@class=&quot;min-h-screen text-white flex&quot;]/div[@class=&quot;flex-1 flex flex-col&quot;]/main[@class=&quot;p-4 md:p-6&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-4&quot;]/div[@class=&quot;w-full max-w-3xl rounded-2xl border border-white/10 bg-[#0D0D0D] overflow-hidden&quot;]/div[@class=&quot;p-6 space-y-5&quot;]/div[2]/textarea[@class=&quot;w-full rounded-xl bg-black/30 border border-white/10 px-4 py-3 outline-none focus:border-white/20 resize-none&quot;]</value>
+      <webElementGuid>e1a8fad1-11a1-4803-8e78-463af7600b16</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>fd201f48-1b35-4643-a107-c4c5981816c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Optional description...']</value>
+      <webElementGuid>023ee2c4-7c2d-4e77-934e-6daa416a4859</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter_Portfolio_By_Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f84f7f25-fed1-4d36-9e28-74d99298f4d9</testCaseGuid>
+</TestCaseEntity>

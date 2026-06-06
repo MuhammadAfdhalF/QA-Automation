@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lblPortfolioPageTitle</name>
+   <tag></tag>
+   <elementGuidId>81c406ba-75ec-4a65-966c-be94f49f39ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='▾'])[1]/following::h1[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.text-4xl.font-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Portfolios&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>8b3ab283-9009-412f-842b-1f23d9b1a136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-4xl font-bold</value>
+      <webElementGuid>b475bc31-06a0-4a53-8526-9f6314730ef8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Portfolios</value>
+      <webElementGuid>eacb03a4-223c-44fb-ab57-d3c3f7c0e16a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_0d7163&quot;]/div[@class=&quot;min-h-screen text-white flex&quot;]/div[@class=&quot;flex-1 flex flex-col&quot;]/main[@class=&quot;p-4 md:p-6&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;flex flex-col gap-4 md:flex-row md:items-start md:justify-between&quot;]/div[1]/h1[@class=&quot;text-4xl font-bold&quot;]</value>
+      <webElementGuid>5554045e-3384-4031-b7dd-7960a99cd4b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▾'])[1]/following::h1[1]</value>
+      <webElementGuid>6ec0206d-364c-430e-a057-200796e9bb30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='admin'])[1]/following::h1[1]</value>
+      <webElementGuid>e7d93469-df28-4dc0-b8f4-8cc92201ae26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/preceding::h1[1]</value>
+      <webElementGuid>3744a0e9-7cb4-4e2e-9140-88150f9962d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refresh'])[1]/preceding::h1[1]</value>
+      <webElementGuid>52a454c8-8390-493b-861d-84a39a0abb33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>f4b8600c-4d4d-4e99-8ddb-bf3121599d1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Portfolios' or . = 'Portfolios')]</value>
+      <webElementGuid>9fd73d38-7fe2-4de2-9ed2-a3a09626c759</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

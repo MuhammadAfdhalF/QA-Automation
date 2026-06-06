@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit_Portfolio_With_Valid_Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4bc10ec-6065-412b-a14e-a2748ced0bf4</testCaseGuid>
+</TestCaseEntity>

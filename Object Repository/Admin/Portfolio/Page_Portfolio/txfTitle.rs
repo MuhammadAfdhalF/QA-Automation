@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txfTitle</name>
+   <tag></tag>
+   <elementGuidId>8bdc1d0f-0581-41a8-8fac-636a29de29c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Portfolio title']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Portfolio title&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ed930180-056c-45cd-9a76-689d32f5a406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Portfolio title</value>
+      <webElementGuid>8c4a01ef-882a-4aa2-84e8-5277c060a69d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full rounded-xl bg-black/30 border border-white/10 px-4 py-3 outline-none focus:border-white/20</value>
+      <webElementGuid>080bb63c-d684-4fec-ad31-cab0090dcd9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dark&quot;]/body[@class=&quot;__className_0d7163&quot;]/div[@class=&quot;min-h-screen text-white flex&quot;]/div[@class=&quot;flex-1 flex flex-col&quot;]/main[@class=&quot;p-4 md:p-6&quot;]/div[@class=&quot;space-y-6&quot;]/div[@class=&quot;fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-4&quot;]/div[@class=&quot;w-full max-w-3xl rounded-2xl border border-white/10 bg-[#0D0D0D] overflow-hidden&quot;]/div[@class=&quot;p-6 space-y-5&quot;]/div[@class=&quot;grid grid-cols-1 md:grid-cols-2 gap-4&quot;]/div[1]/input[@class=&quot;w-full rounded-xl bg-black/30 border border-white/10 px-4 py-3 outline-none focus:border-white/20&quot;]</value>
+      <webElementGuid>1eec7212-b9ae-4279-897a-31d2c9d88213</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>d0faeb96-5f00-4849-a928-f9d87968fbd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>52bfb3ec-5f01-444f-a13a-dbabbddccadb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Portfolio title']</value>
+      <webElementGuid>a982976f-7fa7-472d-8a6b-33b121a149da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
