@@ -1,7 +1,7 @@
 # 🧪 QA Automation – Katalon Studio, Jenkins & Test Reporting
 
 This project is a **QA Automation learning project** based on an e-learning/course practice.  
-It uses **Katalon Studio** to automate web application testing and demonstrates an end-to-end automation workflow with GitHub, Jenkins, test reporting, and Katalon True Platform integration.
+It uses **Katalon Studio** to automate web application testing and demonstrates an end-to-end automation workflow with GitHub, Jenkins, test reporting, Jenkins Build Pipeline, and Katalon True Platform integration.
 
 ---
 
@@ -17,6 +17,7 @@ The project covers:
 - Test Suite and Test Suite Collection management
 - GitHub integration
 - Jenkins CI execution
+- Jenkins Build Pipeline / job chaining
 - JUnit report publishing in Jenkins
 - Test result visualization using Test Results Analyzer
 - Report upload to Katalon True Platform
@@ -31,6 +32,7 @@ With this project, automated tests can be executed in a structured, repeatable, 
 - 🚀 **Katalon Runtime Engine / katalonc** → command line execution
 - 🔧 **Jenkins** → CI tool
 - 🧩 **Katalon Jenkins Plugin** → execute Katalon tests from Jenkins
+- 🔁 **Jenkins Build Pipeline** → visualize CI job flow
 - 🐙 **GitHub** → source code repository
 - 🌐 **Chrome / Chrome Headless** → browser execution
 - 🦊 **Firefox** → cross-browser execution
@@ -118,6 +120,31 @@ Jenkins runs the Katalon test execution using the following command arguments:
 ```
 
 > Note: The API key should not be committed to the repository. Use your own Katalon API key in the Jenkins configuration.
+
+---
+
+## 🔁 Jenkins Build Pipeline
+
+This project also includes a simple Jenkins Build Pipeline to visualize the CI workflow and job chaining process.
+
+Pipeline flow:
+
+```text
+BuildJob
+↓
+DeployJob
+↓
+MerakkiQA Automation Test
+↓
+ReleaseJob
+```
+
+The `MerakkiQA` job runs the Katalon automation test suite collection as part of the pipeline.  
+This demonstrates how automated testing can be included in a CI workflow before moving to the next stage.
+
+### Jenkins Build Pipeline Evidence
+
+![Jenkins Build Pipeline](docs/jenkins-build-pipeline.png)
 
 ---
 
@@ -210,6 +237,7 @@ Through this project, the QA Automation learning process covers:
 ✅ Integrating automation project with GitHub  
 ✅ Running automated tests through Jenkins  
 ✅ Using Katalon Jenkins Plugin  
+✅ Creating Jenkins Build Pipeline / job chaining  
 ✅ Cleaning old reports before new execution  
 ✅ Publishing JUnit reports in Jenkins  
 ✅ Reading test results using Test Results Analyzer  
@@ -226,6 +254,7 @@ The goal of this project is to understand basic to intermediate QA Automation pr
 - Test suite management
 - CI testing workflow
 - Jenkins integration
+- Jenkins Build Pipeline
 - Test reporting
 - Automation portfolio preparation
 
@@ -236,6 +265,7 @@ The goal of this project is to understand basic to intermediate QA Automation pr
 ```text
 Katalon Studio execution       : Passed
 Jenkins execution              : Passed
+Jenkins Build Pipeline         : Passed
 JUnit report publishing        : Passed
 Test Results Analyzer          : Passed
 Katalon True Platform upload   : Passed
@@ -250,4 +280,4 @@ GitHub integration             : Done
 
 QA Automation Learning Project  
 Tools: Katalon Studio • Jenkins • GitHub • Katalon True Platform  
-Focus: Web Automation Testing • CI Integration • Test Reporting
+Focus: Web Automation Testing • CI Integration • Jenkins Pipeline • Test Reporting
