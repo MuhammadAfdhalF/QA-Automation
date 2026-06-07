@@ -1,7 +1,7 @@
 # 🧪 QA Automation – Katalon Studio, BDD, Jenkins & Test Reporting
 
 This project is a **QA Automation learning project** based on an e-learning/course practice.  
-It uses **Katalon Studio** to automate web application testing and demonstrates an end-to-end automation workflow with GitHub, Jenkins, BDD/Cucumber, test reporting, Jenkins Build Pipeline, and Katalon True Platform integration.
+It uses **Katalon Studio** to automate web application testing and demonstrates an end-to-end automation workflow with GitHub, Jenkins, BDD/Cucumber, Test Listener, test reporting, Jenkins Build Pipeline, and Katalon True Platform integration.
 
 ---
 
@@ -16,6 +16,10 @@ The project covers:
 - Portfolio management automation testing
 - Behavior Driven Development using Cucumber / BDD
 - Feature file and step definition implementation
+- Katalon Test Listener implementation
+- Automatic test execution logging
+- Automatic screenshot evidence capture
+- Safe browser cleanup using listener
 - Test Suite and Test Suite Collection management
 - GitHub integration
 - Jenkins CI execution
@@ -32,6 +36,7 @@ With this project, automated tests can be executed in a structured, repeatable, 
 
 - ⚙️ **Katalon Studio 11.1.3** → automation testing tool
 - 🥒 **Cucumber / BDD** → behavior-driven test scenario format
+- 🎧 **Katalon Test Listener** → setup, teardown, logging, screenshot evidence, and browser cleanup
 - 🚀 **Katalon Runtime Engine / katalonc** → command line execution
 - 🔧 **Jenkins** → CI tool
 - 🧩 **Katalon Jenkins Plugin** → execute Katalon tests from Jenkins
@@ -64,6 +69,14 @@ The automation tests cover the following modules:
 - Edit portfolio data
 - Filter portfolio by category
 - Delete portfolio data
+
+### 🎧 Listener Module
+
+- Run valid login with listener
+- Run invalid login with listener
+- Capture screenshot evidence automatically
+- Log test case start and finish status
+- Close browser safely after listener-based test cases
 
 ---
 
@@ -132,6 +145,92 @@ This approach keeps the automation script reusable and avoids code duplication.
 
 ---
 
+## 🎧 Test Listener Implementation
+
+This project also implements **Katalon Test Listener** to handle setup and teardown actions automatically.
+
+The listener is used to:
+
+- Print test case start information
+- Print test case finish information
+- Display test case execution status
+- Capture screenshot evidence automatically
+- Capture screenshot when a test case fails
+- Save screenshots into a custom folder
+- Close browser safely for listener-based test cases
+
+### Listener Structure
+
+```text
+Test Listeners
+└── CommonTestListener
+
+Test Cases
+└── Listener
+    ├── Sample_Passed_Test
+    ├── Sample_Failed_Test
+    ├── Login_Valid_With_Listener
+    └── Login_Invalid_With_Listener
+
+Test Suites
+└── TS_Listener
+
+Screenshots
+└── Listener
+    ├── Listener_Login_Valid_With_Listener_YYYYMMDD_HHMMSS.png
+    └── Listener_Login_Invalid_With_Listener_YYYYMMDD_HHMMSS.png
+```
+
+### Listener Flow
+
+```text
+Before Test Case
+↓
+Print test case ID
+↓
+Execute test case
+↓
+After Test Case
+↓
+Print test case status
+↓
+Capture screenshot evidence
+↓
+Close browser safely
+```
+
+### Listener Test Cases
+
+The listener implementation uses real login scenarios from the application:
+
+- `Login_Valid_With_Listener`
+- `Login_Invalid_With_Listener`
+
+Both test cases are executed through:
+
+```text
+TS_Listener
+```
+
+### Listener Execution Result
+
+```text
+Total Listener Test Cases : 2
+Passed                    : 2
+Failed                    : 0
+Status                    : PASSED
+```
+
+The screenshot evidence is saved into:
+
+```text
+Screenshots/Listener
+```
+
+This makes the screenshot evidence easier to find and use for documentation or portfolio purposes.
+
+---
+
 ## 🧪 Test Suites
 
 This project contains several test suites and test suite collections:
@@ -140,11 +239,14 @@ This project contains several test suites and test suite collections:
 - `TS_Portfolio`
 - `TS_All`
 - `TS_BDD_All`
+- `TS_Listener`
 - `dynamic`
 
 `TS_All` is used as a **Test Suite Collection** to execute multiple normal Katalon test suites.
 
 `TS_BDD_All` is used to execute all BDD scenarios through the `Run_All_BDD` test case.
+
+`TS_Listener` is used to execute listener-based login scenarios with automatic screenshot evidence.
 
 ### Normal Test Suite Flow
 
@@ -166,6 +268,20 @@ Run_All_BDD
 Login_As_Admin.feature
 ↓
 Portfolio.feature
+```
+
+### Listener Test Suite Flow
+
+```text
+TS_Listener
+↓
+Login_Invalid_With_Listener
+↓
+Login_Valid_With_Listener
+↓
+CommonTestListener captures screenshot evidence
+↓
+CommonTestListener closes browser safely
 ```
 
 ---
@@ -283,6 +399,8 @@ Automation test reports can be viewed from:
 - Jenkins Test Results Analyzer
 - Katalon True Platform execution report
 - Katalon BDD / Cucumber execution result
+- Katalon Test Listener execution result
+- Screenshot evidence folder
 
 ---
 
@@ -303,6 +421,14 @@ Automation test reports can be viewed from:
 ### 📈 Katalon True Platform Report
 
 ![Katalon True Platform Report](docs/katalon-true-platform-report.png)
+
+### 🎧 Katalon Listener Result
+
+![Katalon Listener Result](docs/katalon-listener-result.png)
+
+### 📸 Listener Screenshot Evidence
+
+![Listener Screenshot Evidence](docs/listener-screenshot-evidence.png)
 
 ---
 
@@ -327,6 +453,17 @@ Portfolio Scenarios : 6
 Status              : PASSED
 ```
 
+Listener execution result:
+
+```text
+Total Listener Test Cases : 2
+Passed                    : 2
+Failed                    : 0
+Status                    : PASSED
+Screenshot Evidence       : Captured
+Browser Cleanup           : Completed
+```
+
 ---
 
 ## 📈 Learning Outcome
@@ -344,6 +481,13 @@ Through this project, the QA Automation learning process covers:
 ✅ Reusing existing Katalon test cases inside BDD steps  
 ✅ Creating BDD runner test case using `Run_All_BDD`  
 ✅ Creating `TS_BDD_All` to execute BDD scenarios from Test Suite  
+✅ Implementing Katalon Test Listener  
+✅ Using listener for setup and teardown  
+✅ Logging test case start and finish status automatically  
+✅ Capturing screenshot evidence automatically  
+✅ Saving screenshots into a custom folder  
+✅ Closing browser safely using listener  
+✅ Creating `TS_Listener` to execute listener-based test cases  
 ✅ Integrating automation project with GitHub  
 ✅ Running automated tests through Jenkins  
 ✅ Using Katalon Jenkins Plugin  
@@ -363,6 +507,10 @@ The goal of this project is to understand basic to intermediate QA Automation pr
 - Positive and negative test scenarios
 - BDD / Cucumber testing concept
 - Feature file and step definition structure
+- Katalon Test Listener concept
+- Setup and teardown automation
+- Screenshot evidence handling
+- Safe browser cleanup
 - Reusable test automation structure
 - Test suite management
 - CI testing workflow
@@ -379,6 +527,10 @@ The goal of this project is to understand basic to intermediate QA Automation pr
 Katalon Studio execution       : Passed
 BDD execution                  : Passed
 TS_BDD_All execution           : Passed
+Test Listener execution        : Passed
+TS_Listener execution          : Passed
+Screenshot evidence capture    : Passed
+Browser cleanup by listener    : Passed
 Jenkins execution              : Passed
 Jenkins Build Pipeline         : Passed
 JUnit report publishing        : Passed
@@ -394,5 +546,5 @@ GitHub integration             : Done
 👨‍💻 **Muhammad Afdhal F**
 
 QA Automation Learning Project  
-Tools: Katalon Studio • BDD/Cucumber • Jenkins • GitHub • Katalon True Platform  
-Focus: Web Automation Testing • BDD Testing • CI Integration • Jenkins Pipeline • Test Reporting
+Tools: Katalon Studio • BDD/Cucumber • Test Listener • Jenkins • GitHub • Katalon True Platform  
+Focus: Web Automation Testing • BDD Testing • Listener Setup & TearDown • Screenshot Evidence • CI Integration • Jenkins Pipeline • Test Reporting
