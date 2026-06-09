@@ -1,6 +1,6 @@
 # 🧪 QA Automation – Katalon Studio, BDD, Jenkins & Test Reporting
 
-This project is a **QA Automation learning project** based on an e-learning/course practice.
+This project is a **QA Automation learning project** based on an e-learning/course practice.  
 It uses **Katalon Studio** to automate web application testing and demonstrates an end-to-end automation workflow with GitHub, Jenkins, BDD/Cucumber, Test Listener, test reporting, Jenkins Build Pipeline, and Katalon True Platform integration.
 
 ---
@@ -11,22 +11,22 @@ This project was created as part of a QA Automation learning journey to understa
 
 The project covers:
 
-* Login automation testing
-* Positive and negative test scenarios
-* Portfolio management automation testing
-* Behavior Driven Development using Cucumber / BDD
-* Feature file and step definition implementation
-* Katalon Test Listener implementation
-* Automatic test execution logging
-* Automatic screenshot evidence capture
-* Safe browser cleanup using listener
-* Test Suite and Test Suite Collection management
-* GitHub integration
-* Jenkins CI execution
-* Jenkins Build Pipeline / job chaining
-* JUnit report publishing in Jenkins
-* Test result visualization using Test Results Analyzer
-* Report upload to Katalon True Platform
+- Login automation testing
+- Positive and negative test scenarios
+- Portfolio management automation testing
+- Behavior Driven Development using Cucumber / BDD
+- Feature file and step definition implementation
+- Katalon Test Listener implementation
+- Automatic test execution logging
+- Automatic screenshot evidence capture
+- Safe browser cleanup using listener
+- Test Suite and Test Suite Collection management
+- GitHub integration
+- Jenkins CI execution
+- Jenkins Build Pipeline / job chaining
+- JUnit report publishing in Jenkins
+- Test result visualization using Test Results Analyzer
+- Report upload to Katalon True Platform
 
 With this project, automated tests can be executed in a structured, repeatable, readable, and reportable way.
 
@@ -34,19 +34,19 @@ With this project, automated tests can be executed in a structured, repeatable, 
 
 ## 🛠️ Tools & Technologies
 
-* ⚙️ **Katalon Studio 11.1.3** → automation testing tool
-* 🥒 **Cucumber / BDD** → behavior-driven test scenario format
-* 🎧 **Katalon Test Listener** → setup, teardown, logging, screenshot evidence, and browser cleanup
-* 🚀 **Katalon Runtime Engine / katalonc** → command line execution
-* 🔧 **Jenkins** → CI tool
-* 🧩 **Katalon Jenkins Plugin** → execute Katalon tests from Jenkins
-* 🔁 **Jenkins Build Pipeline** → visualize CI job flow
-* 🐙 **GitHub** → source code repository
-* 🌐 **Chrome / Chrome Headless** → browser execution
-* 🦊 **Firefox** → cross-browser execution
-* 📊 **Katalon True Platform** → execution report dashboard
-* 📈 **Jenkins Test Results Analyzer** → visual test result analysis
-* 📄 **JUnit Report Publisher** → publish test results in Jenkins
+- ⚙️ **Katalon Studio 11.1.3** → automation testing tool
+- 🥒 **Cucumber / BDD** → behavior-driven test scenario format
+- 🎧 **Katalon Test Listener** → setup, teardown, logging, screenshot evidence, and browser cleanup
+- 🚀 **Katalon Runtime Engine / katalonc** → command line execution
+- 🔧 **Jenkins** → CI tool
+- 🧩 **Katalon Jenkins Plugin** → execute Katalon tests from Jenkins
+- 🔁 **Jenkins Build Pipeline** → visualize CI job flow
+- 🐙 **GitHub** → source code repository
+- 🌐 **Chrome / Chrome Headless** → browser execution
+- 🦊 **Firefox** → cross-browser execution
+- 📊 **Katalon True Platform** → execution report dashboard
+- 📈 **Jenkins Test Results Analyzer** → visual test result analysis
+- 📄 **JUnit Report Publisher** → publish test results in Jenkins
 
 ---
 
@@ -56,27 +56,27 @@ The automation tests cover the following modules:
 
 ### 🔐 Login Module
 
-* Login with valid credentials
-* Login with invalid password
-* Login with empty email
-* Login with empty password
+- Login with valid credentials
+- Login with invalid password
+- Login with empty email
+- Login with empty password
 
 ### 🗂️ Portfolio Module
 
-* Open portfolio page
-* Open add portfolio modal
-* Create portfolio data
-* Edit portfolio data
-* Filter portfolio by category
-* Delete portfolio data
+- Open portfolio page
+- Open add portfolio modal
+- Create portfolio data
+- Edit portfolio data
+- Filter portfolio by category
+- Delete portfolio data
 
 ### 🎧 Listener Module
 
-* Run valid login with listener
-* Run invalid login with listener
-* Capture screenshot evidence automatically
-* Log test case start and finish status
-* Close browser safely after listener-based test cases
+- Run valid login with listener
+- Run invalid login with listener
+- Capture screenshot evidence automatically
+- Log test case start and finish status
+- Close browser safely after listener-based test cases
 
 ---
 
@@ -114,15 +114,15 @@ Test Suites
 
 The BDD scenarios are written in feature files:
 
-* `Login_As_Admin.feature`
-* `Portfolio.feature`
+- `Login_As_Admin.feature`
+- `Portfolio.feature`
 
 ### Step Definitions
 
 Step definitions are used to connect BDD steps with existing Katalon test cases:
 
-* `LoginSteps.groovy`
-* `PortfolioSteps.groovy`
+- `LoginSteps.groovy`
+- `PortfolioSteps.groovy`
 
 Example BDD scenario:
 
@@ -151,13 +151,13 @@ This project implements **Katalon Test Listener** to handle setup and teardown a
 
 The listener is used to:
 
-* Print test case start information
-* Print test case finish information
-* Display test case execution status
-* Capture screenshot evidence automatically
-* Capture screenshot when a test case fails
-* Save screenshots into a custom folder
-* Close browser safely for listener-based test cases
+- Print test case start information
+- Print test case finish information
+- Display test case execution status
+- Capture screenshot evidence automatically
+- Capture screenshot when a test case fails
+- Save screenshots into a custom folder
+- Close browser safely for listener-based test cases
 
 ### Listener Structure
 
@@ -203,8 +203,8 @@ Close browser safely
 
 The listener implementation uses real login scenarios from the application:
 
-* `Login_Valid_With_Listener`
-* `Login_Invalid_With_Listener`
+- `Login_Valid_With_Listener`
+- `Login_Invalid_With_Listener`
 
 Both test cases are executed through:
 
@@ -237,12 +237,12 @@ This makes the screenshot evidence easier to find and use for documentation or p
 
 This project contains several test suites and test suite collections:
 
-* `TS_Login`
-* `TS_Portfolio`
-* `TS_All`
-* `TS_BDD_All`
-* `TS_Listener`
-* `dynamic`
+- `TS_Login`
+- `TS_Portfolio`
+- `TS_All`
+- `TS_BDD_All`
+- `TS_Listener`
+- `dynamic`
 
 `TS_All` is used as a **Test Suite Collection** to execute multiple normal Katalon test suites.
 
@@ -384,11 +384,11 @@ Reports/**/TS_Login/**/JUnit_Report.xml,Reports/**/TS_Portfolio/**/JUnit_Report.
 
 This report configuration allows Jenkins to display:
 
-* Total passed tests
-* Total failed tests
-* Test result trend
-* Detailed test case results
-* Test Results Analyzer chart
+- Total passed tests
+- Total failed tests
+- Test result trend
+- Detailed test case results
+- Test Results Analyzer chart
 
 ---
 
@@ -396,14 +396,14 @@ This report configuration allows Jenkins to display:
 
 Automation test reports can be viewed from:
 
-* Katalon Studio local report
-* Jenkins build result
-* Jenkins JUnit test result
-* Jenkins Test Results Analyzer
-* Katalon True Platform execution report
-* Katalon BDD / Cucumber execution result
-* Katalon Test Listener execution result
-* Screenshot evidence folder
+- Katalon Studio local report
+- Jenkins build result
+- Jenkins JUnit test result
+- Jenkins Test Results Analyzer
+- Katalon True Platform execution report
+- Katalon BDD / Cucumber execution result
+- Katalon Test Listener execution result
+- Screenshot evidence folder
 
 ---
 
@@ -465,32 +465,32 @@ Browser Cleanup           : Completed
 
 Through this project, the QA Automation learning process covers:
 
-✅ Creating automated test cases using Katalon Studio
-✅ Managing Object Repository
-✅ Creating positive and negative test scenarios
-✅ Creating Test Suites and Test Suite Collections
-✅ Running tests on multiple browsers
-✅ Implementing BDD with Cucumber-style feature files
-✅ Creating Feature Files using Given, When, Then format
-✅ Creating Step Definitions in Katalon
-✅ Reusing existing Katalon test cases inside BDD steps
-✅ Creating BDD runner test case using `Run_All_BDD`
-✅ Creating `TS_BDD_All` to execute BDD scenarios from Test Suite
-✅ Implementing Katalon Test Listener
-✅ Using listener for setup and teardown
-✅ Logging test case start and finish status automatically
-✅ Capturing screenshot evidence automatically
-✅ Saving screenshots into a custom folder
-✅ Closing browser safely using listener
-✅ Creating `TS_Listener` to execute listener-based test cases
-✅ Integrating automation project with GitHub
-✅ Running automated tests through Jenkins
-✅ Using Katalon Jenkins Plugin
-✅ Creating Jenkins Build Pipeline / job chaining
-✅ Cleaning old reports before new execution
-✅ Publishing JUnit reports in Jenkins
-✅ Reading test results using Test Results Analyzer
-✅ Uploading execution reports to Katalon True Platform
+✅ Creating automated test cases using Katalon Studio  
+✅ Managing Object Repository  
+✅ Creating positive and negative test scenarios  
+✅ Creating Test Suites and Test Suite Collections  
+✅ Running tests on multiple browsers  
+✅ Implementing BDD with Cucumber-style feature files  
+✅ Creating Feature Files using Given, When, Then format  
+✅ Creating Step Definitions in Katalon  
+✅ Reusing existing Katalon test cases inside BDD steps  
+✅ Creating BDD runner test case using `Run_All_BDD`  
+✅ Creating `TS_BDD_All` to execute BDD scenarios from Test Suite  
+✅ Implementing Katalon Test Listener  
+✅ Using listener for setup and teardown  
+✅ Logging test case start and finish status automatically  
+✅ Capturing screenshot evidence automatically  
+✅ Saving screenshots into a custom folder  
+✅ Closing browser safely using listener  
+✅ Creating `TS_Listener` to execute listener-based test cases  
+✅ Integrating automation project with GitHub  
+✅ Running automated tests through Jenkins  
+✅ Using Katalon Jenkins Plugin  
+✅ Creating Jenkins Build Pipeline / job chaining  
+✅ Cleaning old reports before new execution  
+✅ Publishing JUnit reports in Jenkins  
+✅ Reading test results using Test Results Analyzer  
+✅ Uploading execution reports to Katalon True Platform  
 
 ---
 
@@ -498,21 +498,21 @@ Through this project, the QA Automation learning process covers:
 
 The goal of this project is to understand basic to intermediate QA Automation practices, especially:
 
-* Web UI automation testing
-* Positive and negative test scenarios
-* BDD / Cucumber testing concept
-* Feature file and step definition structure
-* Katalon Test Listener concept
-* Setup and teardown automation
-* Screenshot evidence handling
-* Safe browser cleanup
-* Reusable test automation structure
-* Test suite management
-* CI testing workflow
-* Jenkins integration
-* Jenkins Build Pipeline
-* Test reporting
-* Automation portfolio preparation
+- Web UI automation testing
+- Positive and negative test scenarios
+- BDD / Cucumber testing concept
+- Feature file and step definition structure
+- Katalon Test Listener concept
+- Setup and teardown automation
+- Screenshot evidence handling
+- Safe browser cleanup
+- Reusable test automation structure
+- Test suite management
+- CI testing workflow
+- Jenkins integration
+- Jenkins Build Pipeline
+- Test reporting
+- Automation portfolio preparation
 
 ---
 
@@ -540,6 +540,6 @@ GitHub integration             : Done
 
 👨‍💻 **Muhammad Afdhal F**
 
-QA Automation Learning Project
-Tools: Katalon Studio • BDD/Cucumber • Test Listener • Jenkins • GitHub • Katalon True Platform
+QA Automation Learning Project  
+Tools: Katalon Studio • BDD/Cucumber • Test Listener • Jenkins • GitHub • Katalon True Platform  
 Focus: Web Automation Testing • BDD Testing • Listener Setup & TearDown • Screenshot Evidence • CI Integration • Jenkins Pipeline • Test Reporting
