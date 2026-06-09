@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Portfolio_CRUD_API</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ebbee694-a384-41ca-b7df-b1e094c33ca2</testCaseGuid>
+</TestCaseEntity>

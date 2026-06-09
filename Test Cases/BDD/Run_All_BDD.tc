@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Run_All_BDD</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7b71952-ab5e-4c33-b943-dc35e6f9c836</testCaseGuid>
+</TestCaseEntity>

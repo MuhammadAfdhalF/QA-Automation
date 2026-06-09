@@ -20,6 +20,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'http://127.0.0.1:8000/api'</initValue>
+      <name>apiUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'meraki@gmail.com'</initValue>
       <name>username</name>
       <protected>false</protected>
@@ -30,6 +37,13 @@
       <initValue>''</initValue>
       <name>password</name>
       <protected>true</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>token</name>
+      <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

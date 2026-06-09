@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get_Public_Portfolios_API</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>223b860f-f765-44da-8ca4-442d2fe3bda7</testCaseGuid>
+</TestCaseEntity>

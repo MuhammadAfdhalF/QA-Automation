@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sample_Failed_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44ca89a5-a355-4898-88b6-d9077c1c6cf5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Invalid_With_Listener</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a47b3fd2-ad45-4d91-aea4-617ec757e480</testCaseGuid>
+</TestCaseEntity>
