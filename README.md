@@ -425,14 +425,6 @@ Automation test reports can be viewed from:
 
 ![Katalon True Platform Report](docs/katalon-true-platform-report.png)
 
-### 🎧 Katalon Listener Result
-
-![Katalon Listener Result](docs/katalon-listener-result.png)
-
-### 📸 Listener Screenshot Evidence
-
-![Listener Screenshot Evidence](docs/listener-screenshot-evidence.png)
-
 ---
 
 ## 🧪 Testing Result
