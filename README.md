@@ -651,39 +651,53 @@ Browser Cleanup           : Completed
 
 Through this project, the QA Automation learning process covers:
 
-✅ Creating automated test cases using Katalon Studio
-✅ Managing Object Repository
-✅ Creating positive and negative test scenarios
-✅ Creating Test Suites and Test Suite Collections
-✅ Running tests on multiple browsers
-✅ Creating REST API requests in Katalon
-✅ Testing GET, POST, PATCH, and DELETE API methods
-✅ Implementing Bearer Token authentication in API testing
-✅ Capturing token dynamically from login API response
-✅ Reusing token in protected API requests
-✅ Handling dynamic ID for update and delete API tests
-✅ Creating full CRUD API automation flow
-✅ Implementing BDD with Cucumber-style feature files
-✅ Creating Feature Files using Given, When, Then format
-✅ Creating Step Definitions in Katalon
-✅ Reusing existing Katalon test cases inside BDD steps
-✅ Creating BDD runner test case using `Run_All_BDD`
-✅ Creating `TS_BDD_All` to execute BDD scenarios from Test Suite
-✅ Implementing Katalon Test Listener
-✅ Using listener for setup and teardown
-✅ Logging test case start and finish status automatically
-✅ Capturing screenshot evidence automatically
-✅ Saving screenshots into a custom folder
-✅ Closing browser safely using listener
-✅ Creating `TS_Listener` to execute listener-based test cases
-✅ Integrating automation project with GitHub
-✅ Running automated tests through Jenkins
-✅ Using Katalon Jenkins Plugin
-✅ Creating Jenkins Build Pipeline / job chaining
-✅ Cleaning old reports before new execution
-✅ Publishing JUnit reports in Jenkins
-✅ Reading test results using Test Results Analyzer
-✅ Uploading execution reports to Katalon True Platform
+### Web UI Automation
+
+* Creating automated test cases using Katalon Studio
+* Managing Object Repository
+* Creating positive and negative test scenarios
+* Creating Test Suites and Test Suite Collections
+* Running tests on multiple browsers
+
+### REST API Automation
+
+* Creating REST API requests in Katalon
+* Testing GET, POST, PATCH, and DELETE API methods
+* Implementing Bearer Token authentication in API testing
+* Capturing token dynamically from login API response
+* Reusing token in protected API requests
+* Handling dynamic ID for update and delete API tests
+* Creating full CRUD API automation flow
+
+### BDD / Cucumber
+
+* Implementing BDD with Cucumber-style feature files
+* Creating Feature Files using Given, When, Then format
+* Creating Step Definitions in Katalon
+* Reusing existing Katalon test cases inside BDD steps
+* Creating BDD runner test case using `Run_All_BDD`
+* Creating `TS_BDD_All` to execute BDD scenarios from Test Suite
+
+### Test Listener
+
+* Implementing Katalon Test Listener
+* Using listener for setup and teardown
+* Logging test case start and finish status automatically
+* Capturing screenshot evidence automatically
+* Saving screenshots into a custom folder
+* Closing browser safely using listener
+* Creating `TS_Listener` to execute listener-based test cases
+
+### CI/CD & Reporting
+
+* Integrating automation project with GitHub
+* Running automated tests through Jenkins
+* Using Katalon Jenkins Plugin
+* Creating Jenkins Build Pipeline / job chaining
+* Cleaning old reports before new execution
+* Publishing JUnit reports in Jenkins
+* Reading test results using Test Results Analyzer
+* Uploading execution reports to Katalon True Platform
 
 ---
 
